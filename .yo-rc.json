@@ -1,0 +1,13 @@
+{
+  "generator-yeogurt": {
+    "config": {
+      "projectName": "hdsplash",
+      "htmlOption": "nunjucks",
+      "jsPreprocessor": "es6",
+      "cssOption": "sass",
+      "sassSyntax": "sass",
+      "testFramework": "mocha"
+    },
+    "version": "2.0.1"
+  }
+}

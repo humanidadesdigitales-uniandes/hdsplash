@@ -1,0 +1,75 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% import "_modules/link/link.nunjucks" as link %}
+
+{% block content %}
+<div class="main-container">
+  <header>
+    <a href="https://uniandes.edu.co/" target="_blank">
+      <img src="{{baseUrl}}images/uniandes-colombia-sm.png" alt="">
+    </a>
+  </header>
+
+  <main>
+    <div class="well">
+      <h1>Plataforma Digital</h1>
+      <h2>Maestría en Humanidades Digitales</h2>
+      <p>
+        <a href="https://posgradosfacartes.uniandes.edu.co/" target='_blank'>
+          Escuela de Posgrados - Facultad de Artes y Humanidades
+        </a>
+      </p>
+    </div>
+
+  </main>
+
+  <footer>
+<nav>
+  <!-- The class on the root UL tag was changed to match the Blueprint nav style -->
+  <ul class="footer-links">
+    <li>
+      <a href="http://registro.uniandes.edu.co/" target="_blank">Admisiones y Registro</a>
+    </li>
+    <li>
+      <a href="https://eventos.uniandes.edu.co" target="_blank">Agenda</a>
+    </li>
+    <li>
+      <a href="https://apoyofinanciero.uniandes.edu.co/index.php/es/" target="_blank">Apoyo Financiero</a>
+    </li>
+    <li>
+      <a href="https://biblioteca.uniandes.edu.co/index.php?lang=es" target="_blank">Biblioteca</a>
+    </li>
+    <li>
+      <a href="http://correo.uniandes.edu.co" target="_blank">Correo</a>
+    </li>
+    <li>
+      <a href="http://egresados.uniandes.edu.co" target="_blank">Egresados</a>
+    </li>
+    <li>
+      <a href="http://secretariageneral.uniandes.edu.co/index.php/es/" target="_blank">Normas</a>
+    </li>
+    <li>
+      <a href="http://planeacion.uniandes.edu.co/" target="_blank">Planeación</a>
+    </li>
+    <li>
+      <a href="http://sicuaplus.uniandes.edu.co" target="_blank">Sicua</a>
+    </li>
+    <li>
+      <a href="https://facartes.uniandes.edu.co/index.php/noticias/982-siprae">Siprae</a>
+    </li>
+  </ul>
+</nav>
+<div>
+  <p class="footer-info">
+    <strong>Universidad de los Andes</strong>
+    <em>Calle 19A N&ordm; 1 - 37 Este Bloque P</em><br/><br />
+    PBX 339 4949 - 339 4999&nbsp;<strong>Extensi&oacute;n</strong>&nbsp;2540&nbsp;<strong>L&iacute;nea directa</strong>
+    3324537<br/> <br />
+    Universidad de los Andes | Vigilada Mineducación. Reconocimiento como Universidad: Decreto 1297 del 30 de mayo de 1964.<br/>
+    Reconocimiento personería jurídica:&nbsp;Resolución 28 del 23 de febrero de 1949 Minjusticia.
+  </p>
+</div>
+
+  </footer>
+</div>
+{% endblock %}
